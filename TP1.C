@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 
 int main()
@@ -12,7 +13,7 @@ int main()
          scanf("%d",&arr[i][j]);
         }
       } 
-    printf("Matrix before swap");
+    printf("\nMatrix before swap :\n");
       for(i=0;i<n;i++){
         for(j=0;j<n;j++){
          printf("%d",arr[i][j]);
@@ -20,13 +21,13 @@ int main()
         printf("\n");
       }  
       for(i=0;i<n;i++){
-        for(j=i+1;j<n;j++){
-          int temp=arr[i][j];
+        for(j=i;j<n;j++){
+          int s=arr[i][j];
           arr[i][j]=arr[j][i];
-          arr[j][i]=temp;
+          arr[j][i]=s;
         } 
       }   
-    printf("Matrix after swap"); 
+    printf("\nMatrix after swap:\n"); 
       for(i=0;i<n;i++){
         for(j=0;j<n;j++){
          printf("%d",arr[i][j]);
