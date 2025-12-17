@@ -84,8 +84,8 @@ int main(){
         printf("list is not empty \n");
     }
 
-    Product P1={1,"carrot",550};
-    Product P2={2,"tomato",700};
+    Product P2={1,"carrot",550};
+    Product P1=2,"tomato",700};
     Product P3={3,"potato",100};
     Product P4={4,"onion",200};
  
